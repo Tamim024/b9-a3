@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hockeys </title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        .manrope {
+            font-family: 'Manrope', sans-serif;
+        }
+    </style>
+</head>
+<body class="lg:mx-28 manrope">
+    <nav class="flex justify-between items-center my-2">
+        
+            <div class="navbar bg-base-100">
+                <div class="flex justify-between ">
+                    <div class="dropdown">
+                        <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                                stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M4 6h16M4 12h8m-8 6h16" />
+                            </svg>
+                        </div>
+                        <ul tabindex="0"
+                            class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+                            <li><a>Home</a></li>
+                            <li><a>About</a></li>
+                            <li><a>Pages</a></li>
+                            <li><a>Contact</a></li>
+                        </ul>
+                    </div>
+                    <div><h1 class="lg:font-extrabold text-2xl lg:text-4xl">Hockey<span class="text-red-700">'</span>s</h1></div>
+                    <div class="navbar-center hidden lg:flex ">
+                        <ul class="menu menu-horizontal px-1 font-medium text-xl pl-48 ">
+                            <li><a>Home</a></li>
+                            <li><a>About</a></li>
+                            <li><a>Pages</a></li>
+                            <li><a>Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        <div><button class="btn btn-secondery bg-red-600 text-white font-bold px-8">GetTicket</button></div>
+    </nav>
+    <section class="mb-12">
+        <div>
+            <div class="carousel w-full">
+                <div id="slide1" class="carousel-item relative w-full">
+                  <img src="Images/1.png" class="w-full lg:h-[520px]" />
+                  <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                    <a href="#slide2" class="btn btn-circle opacity-35">❮</a> 
+                    <a href="#slide2" class="btn btn-circle opacity-35">❯</a>
+                  </div>
+                </div> 
+                <div id="slide2" class="carousel-item relative w-full">
+                  <img src="Images/3.png" class="w-full lg:h-[520px]" />
+                  <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                    <a href="#slide1" class="btn btn-circle opacity-25">❮</a> 
+                    <a href="#slide1" class="btn btn-circle opacity-25">❯</a>
+                  </div>
+                </div> 
+              </div>
+        </div>
+        <div class="pb-8 absolute bg-black lg:w-[500px] rounded-lg p-8 text-white gap-4 grid-cols-1 lg:right-32 lg:bottom-14">
+            <div><h3 class="text-2xl font-bold text-white">Meet all the heros of the field</h3></div>
+            <p class="text-sm font-normal text-slate-500">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin. </p>
+        </div>
+        
+    </section>
+    <section>
+        <hr>
+        <div class="text-center py-10 ">
+            <h1 class="text-4xl font-bold pb-4">Professional Hockeys Club </h1>
+            <p>Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat <br> dolor. Purus urna in sit nullam proin. </p>
+
+        </div>
+        <hr>
+        <div>
+            hahhahg
+        </div>
+    </section>
+</body>
+</html>
